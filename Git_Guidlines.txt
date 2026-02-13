@@ -1,0 +1,21 @@
+GIT GUIDELINES
+When using git:
+1. you need to create a new repository for the files to be sent to:
+    this can be done by using the git init command in the terminal portal or the comand portal near the location of the required files
+    git init (create an empty repository)
+2. to add the files to the local repository:
+    use git add . (to add all files) 
+    or 
+    git add fils_name to add particular files
+3. commit the changes before pushing it into git:
+    git commit -m "comment line"
+4. The link the repository by copying the link:
+    git remote add origin (enter the link of the repository)
+    remember the branch name here.
+5. finally, push the changes from the local repository to the git which is a non local repository and can be accessed from anywhere and any device:
+    git push -u origin (branch_name)
+These steps are to be done first and later when editing the content in the repository;
+we simply 
+* use git add. 
+* followed by the commit 
+*and pushing the file or changes made into the repository respectively.
